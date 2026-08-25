@@ -1,10 +1,10 @@
 package dayFive;
 
 public class Vehicle {
-    protected String brand;
-    protected int year;
+    String brand;
+    int year;
 
-    public Vehicle(String brand, int year) {
+    Vehicle(String brand, int year) {
         this.brand = brand;
         this.year = year;
     }
